@@ -36,8 +36,8 @@ public class OnlineStore {
   public void Navigatethroughsections() throws InterruptedException {
 /*
 * FEATURE: Navigation
-* SCENARIO: we navigate to different categories
-* GIVEN we navigate from the website home
+* SCENARIO: Navigation from the website
+* GIVEN we have different categories
 * WHEN we click on each category
 * THEN we can see all items of each category
 */
@@ -98,10 +98,10 @@ public class OnlineStore {
 
 /*
 * FEATURE: Cart
-* SCENARIO: we remove an item from cart
-* GIVEN we remove a laptop from cart page
+* SCENARIO: we remove an item from the cart
+* GIVEN we have a laptop in the cart
 * WHEN we click on Delete
-* THEN the laptop dissapears in the cart
+* THEN the laptop dissapears from the cart
 */
     driver.findElement(By.id("cartur")).click();
         Thread.sleep(2000);

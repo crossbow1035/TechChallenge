@@ -37,9 +37,9 @@ If you want to review the test scripts, open each request and go to Test tab.
 You also can run the tests with Newman:
 
 1. Execute collection with the script: 
-`newman run Pet Store Tests.postman collection.json -e Pet Store Environment.postman environment.json -r htmlextra`
+`newman run Pet Store Tests.postman_collection.json -e Pet Store Environment.postman_environment.json -r htmlextra`
 
-2. The results will be available in an HTML report. 
+2. The results will be available in an HTML report in a folder called newman. To see the HTML report already generated go to https://htmlpreview.github.io/?https://github.com/crossbow1035/TechChallenge/blob/master/PetStoreTests/newman/Pet%20Store%20Tests-2022-11-29-09-11-10-278-0.html 
 
 
 ### To run OnlineStore tests:
